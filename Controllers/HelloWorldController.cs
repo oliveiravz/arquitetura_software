@@ -23,10 +23,18 @@ namespace BSIStore.Controllers {
 
         }*/
 
-        public string Welcome(string nome, int ID = 1) {
+        // public string Welcome(string nome, int ID = 1) {
 
-            return HtmlEncoder.Default.Encode($"Nome: {nome}, ID: {ID}");
+        //     return HtmlEncoder.Default.Encode($"Nome: {nome}, ID: {ID}");
 
+        // }
+
+
+        public IActionResult Welcome(string nome, int ID = 1) {
+            ViewData["Mensagem"] = "Olá, " + nome + "!!";
+            ViewData["ID"] = ID;
+
+            return View();
         }
     }
 }

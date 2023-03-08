@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+
+}
+
+<div class="text-center">
+    <h2>Bem vindo</h2>
+
+    <p>Mensagem: @ViewData["Mensagem"]</p>
+    <p>ID: @ViewData["ID"]</p>
+</div>
+<ul>
+    @for (int i = 0; i < (int)ViewData["ID"]; i++) {   
+        <li>@ViewData["Mensagem"] => @i</li>
+    }
+
+</ul>
+
+<img src="/img/img_corinthians.png" alt="">
