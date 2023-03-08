@@ -6,10 +6,14 @@ namespace BSIStore.Controllers {
     public class HelloWorldController : Controller {
         
         // /HelloWorld
-        public string Index() {
+        // public string Index() {
 
-            return "Hello, World!!";
+        //     return "Hello, World!!";
             
+        // }
+
+        public IActionResult Index() {
+            return View();
         }
 
         // /HelloWorld/Welcome

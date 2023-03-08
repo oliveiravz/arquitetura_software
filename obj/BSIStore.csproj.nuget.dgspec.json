@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laboratorio\\BSIStore\\BSIStore.csproj": {}
+    "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laboratorio\\BSIStore\\BSIStore.csproj": {
+    "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laboratorio\\BSIStore\\BSIStore.csproj",
+        "projectUniqueName": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj",
         "projectName": "BSIStore",
-        "projectPath": "C:\\Users\\Laboratorio\\BSIStore\\BSIStore.csproj",
+        "projectPath": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\BSIStore.csproj",
         "packagesPath": "C:\\Users\\Laboratorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laboratorio\\BSIStore\\obj\\",
+        "outputPath": "C:\\Users\\Laboratorio\\Documents\\arquitetura_software\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
